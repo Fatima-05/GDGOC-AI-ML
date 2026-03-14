@@ -31,4 +31,4 @@ if uploaded_img is not None:
     st.image(image,caption="Uploaded Image")
     st.write("Predicting...")
     result=predict_image(image)
-    st.success("Prediction: ",result)
+    st.success(f"Prediction: {result}")
